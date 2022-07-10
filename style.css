@@ -1,0 +1,182 @@
+  html,
+  body {
+    font-family: 'Gantari', sans-serif;
+    background-image: url(img/fondo-minimalista.jpg);
+  }
+
+  #Logo-r {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+    border: rgb(0, 143, 57) 5px double;
+  }
+
+  header {
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+  }
+
+  #Par {
+    background: url('img/pizza.para.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .nav-item{
+    font-family: 'Yellowtail', cursive;
+    font-size: 25px;
+  }
+
+  a:hover {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  #Pizza-fondo {
+    background-image: url(img/pizza-marco.jpg);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.65);
+    background-blend-mode: darken;
+  }
+
+  h1 {
+    -webkit-text-stroke: 2px black;
+    border-color: black;
+    margin: 10px;
+  }
+
+  #P1 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
+  }
+
+  .card {
+    border: 0 important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.06);
+  }
+
+  .cover-small {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: normal;
+  }
+
+  #carta {
+    align-items: center;
+    text-align: center;
+  }
+
+  .card-title {
+    min-height: 2.5rem;
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
+  }
+
+  .card-text {
+    min-height: 7rem;
+  }
+
+  .card-header {
+    font-size: 40px;
+    font-family: 'Yellowtail', cursive;
+  }
+
+  .col {
+    display: flex;
+    justify-content: center !important;
+  }
+
+  #Fotos {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  footer {
+    background-color: rgb(54, 55, 55);
+  }
+
+  #Sobre,
+  #Novedades {
+    width: auto;
+  }
+
+  #texto-r {
+    background-color: tomato;
+    border: black 10px double;
+  }
+
+  #grupo {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .h3 {
+    padding-top: 20px;
+    margin-left: 50px;
+  }
+
+  .box {
+    color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    padding: 30px;
+  }
+
+  .box-footer {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .copy {
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding: 10px 10px;
+  }
+
+  iframe {
+    width: 100%;
+    margin: auto;
+    height: 300px;
+  }
+
+  #figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #Imagen-n {
+    width: auto;
+    max-width: 400px;
+    min-width: none;
+    max-height: 500px;
+    border: black 5px solid;
+  }
