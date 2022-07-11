@@ -101,6 +101,10 @@
     justify-content: center !important;
   }
 
+  .btn-danger {
+    width: 100%;
+  }
+
   #Fotos {
     margin-top: 60px;
     margin-bottom: 60px;
@@ -204,10 +208,10 @@
     #Imagen-c {
       width: auto;
       min-width: 600px;
-      min-height: 200px;
-      max-width: 450px;
+      min-height: 475px;
+      max-width: 600px;
       min-width: none;
-      max-height: 300px;
+      max-height: 47500px;
       border: black 5px double;
     }
   }
@@ -224,7 +228,7 @@
       border: black 5px double;
     }
 
-    #Imagen-n{
+    #Imagen-n {
       max-width: 300px;
       min-width: none;
       max-height: 300px;
@@ -235,7 +239,7 @@
       height: 300px;
     }
 
-    .display-1{
+    .display-1 {
       font-size: 30px;
     }
   }
