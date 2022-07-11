@@ -4,6 +4,7 @@
     background-image: url(img/fondo-minimalista.jpg);
   }
 
+
   #Logo-r {
     background-repeat: no-repeat;
     background-position: 50%;
@@ -29,7 +30,7 @@
     padding-bottom: 40px;
   }
 
-  .nav-item{
+  .nav-item {
     font-family: 'Yellowtail', cursive;
     font-size: 25px;
   }
@@ -117,6 +118,11 @@
   #texto-r {
     background-color: tomato;
     border: black 10px double;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
   }
 
   #grupo {
@@ -175,8 +181,61 @@
 
   #Imagen-n {
     width: auto;
+    margin: auto;
     max-width: 400px;
     min-width: none;
     max-height: 500px;
     border: black 5px solid;
+  }
+
+
+  #Imagen-c {
+    width: auto;
+    min-width: 400;
+    min-height: 200;
+    max-width: 1200px;
+    min-width: none;
+    max-height: 700px;
+    border: black 5px double;
+  }
+
+  @media screen and (max-width: 950px) {
+
+    #Imagen-c {
+      width: auto;
+      min-width: 600;
+      min-height: 200;
+      max-width: 500px;
+      min-width: none;
+      max-height: 300px;
+      border: black 5px double;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+
+    #Imagen-c {
+      width: auto;
+      min-width: 400;
+      min-height: 200;
+      max-width: 400px;
+      min-width: none;
+      max-height: 27ss0px;
+      border: black 5px double;
+    }
+
+    #Imagen-n{
+      max-width: 300px;
+      min-width: none;
+      max-height: 300px;
+    }
+
+    iframe {
+      width: 100px;
+      height: 300px;
+    }
+
+    .display-1{
+      font-size: 30px;
+    }
   }
