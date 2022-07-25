@@ -229,7 +229,8 @@
     }
 
     #Imagen-n {
-      max-width: 300px;
+      width: 270px;
+      max-width:320px;
       min-width: none;
       max-height: 300px;
     }
@@ -280,6 +281,7 @@
     height:100%;
     width:100%;
     object-fit:cover;
+    border: black 5px double;
   }
 
   .item4{
