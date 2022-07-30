@@ -68,14 +68,15 @@ a:hover {
 }
 
 h1 {
-  -webkit-text-stroke: 2px black;
+  -webkit-text-stroke: 0.5px black;
   border-color: black;
-  padding: 10px;
+  padding-left: 10px;
+  font-size:50px;
 }
 
 #P1 {
   margin-bottom: 20px;
-  margin-left: 20px;
+  padding-left: 10px;
   font-family: 'Yellowtail', cursive;
   font-size: 30px;
 }
@@ -244,7 +245,15 @@ iframe {
 #producto {
   position: absolute;
   bottom: 0px;
+  opacity: 70%;
 }
+
+#mapa{
+  width:600px;
+  height:600px;
+}
+
+
 
 @media screen and (max-width: 950px) {
 
@@ -263,6 +272,10 @@ iframe {
     grid-template-columns: repeat(2, 1fr);
     padding: 40px;
     grid-gap: 30px;
+  }
+  #mapa{
+    width:400px;
+    height:400px;
   }
 
 }
@@ -286,11 +299,6 @@ iframe {
     max-height: 300px;
   }
 
-  iframe {
-    width: 100px;
-    height: 300px;
-  }
-
   .display-1 {
     font-size: 30px;
   }
@@ -300,6 +308,15 @@ iframe {
     grid-template-columns: repeat(1, 1fr);
     padding: 40px;
     grid-gap: 30px;
+  }
+
+  #mapa{
+    width:200px;
+    height:200px;
+  }
+
+  h1{
+    font-size:30px;
   }
 
 }
