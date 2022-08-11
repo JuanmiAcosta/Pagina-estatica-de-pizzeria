@@ -236,15 +236,17 @@ iframe {
 
 .item {
   position: relative;
-  display: inline-block;
-  text-align: center;
-  justify-content: center;
+  display: flex;
   align-items: center;
+  justify-content: center;
+  text-align: center;
+
 }
 
 #producto {
   position: absolute;
   bottom: 0px;
+  margin-bottom: 4px;
   opacity: 70%;
 }
 
