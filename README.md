@@ -1,5 +1,22 @@
-# JuanmiAcosta.github.io
-Página web de una pizzería (Frontend)
+# Página Estática Pizzería 📓
 
-Se trata de mi primer proyecto de desarrollo web, en el que pretendo introducirme a la manera de trabajar de un framework ( en este caso Bootstrap).
-Se puede visualizar en este link : https://creative-sunburst-eb6889.netlify.app/
+Primer proyecto original de desarrollo frontend. Se trata de una página estática en la que se puede visualizar información de la misma. Estructurada con varios banners llamativos, una galería de imágenes, la carta, el contacto ... 🤔
+
+![Imagen representativa](https://github.com/JuanmiAcosta/Pagina-estatica-de-pizzeria/blob/main/captura.png?raw=true)
+
+## Tecnologías utilizadas 🛠️ / Lenguajes de programación 👀
+
+* Bootstrap
+* HTML5
+* CSS3
+* Javascript Vanilla
+
+## Cómo empezar 🫡
+
+1. Clona el repositorio
+2. Instala las dependencias
+3. Ejecuta el proyecto
+
+## Enlace a la página :link:
+
+https://creative-sunburst-eb6889.netlify.app/
